@@ -14,7 +14,7 @@ variable by one. See the Cat UML diagram for the cat’s data fields in Figure 2
     <img width="1000" src="https://user-images.githubusercontent.com/110589752/187672672-8b4c723b-b7a2-4eb0-8db1-e99b83a3d944.png">
 </p>
 
-<h5 align="center">Figure 1. Left: A cat in a world, right: cat ate some of the foods</h1>
+<h5 align="center">Figure 1. Left: A cat in a world, right: cat ate some of the foods</h5>
 
 The application draws the world at each simulation time. At each time unit, the cat makes a single move. If the cat eats food,
 erase the food from the world, i.e., do not draw the eaten food in magenta color anymore. Figure 1 (on the right) shows a sample
@@ -25,7 +25,7 @@ world after a few iterations where almost half of the foods are eaten.
     <img width="400" src="https://user-images.githubusercontent.com/110589752/187673535-359aa5c5-9fe2-44b5-bfc3-dd36e88e9cb1.png">
 </p>
 
-<h5 align="center">Figure 2. UML diagram for the Cat class</h1>
+<h5 align="center">Figure 2. UML diagram for the Cat class</h5>
 
 ## Format of the world input file
 World is provided as text file where cells are denoted as 1=wall, 2=sea, 3=food, and 0=empty. At the beginning of the world file,
